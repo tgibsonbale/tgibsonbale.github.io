@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <polygon cx="129" cy="151" fill="#ffff00" id="svg_1" orient="point" point="5" points="319.4485168457031,3.744985580444336 384.3046569824219,193.84071350097656 634.266845703125,183.59974670410156 424.3879699707031,290.84442138671875 514.0169677734375,474.61090087890625 319.4485168457031,350.7960205078125 124.880126953125,474.61090087890625 214.50909423828125,290.84442138671875 4.630218505859375,183.59974670410156 254.59239196777344,193.84071350097656 319.4485168457031,3.744985580444336 384.3046569824219,193.84071350097656" r="287.56" r2="95.85" radialshift="0" shape="star" starRadiusMultiplier="3" stroke="#000000" stroke-width="5"/>
+  <ellipse cx="346.61" cy="205.59" fill="#000000" id="svg_3" rx="12.67" ry="28.67" stroke="#000000" stroke-width="5"/>
+  <ellipse cx="346.61" cy="198.24" fill="#ffffff" id="svg_4" rx="7.85" ry="19.04" stroke="#000000" stroke-width="0"/>
+  <ellipse cx="298.5" cy="204" fill="#000000" id="svg_12" rx="12.67" ry="28.67" stroke="#000000" stroke-width="5" transform="matrix(1 0 0 1 0 0)"/>
+  <ellipse cx="298.51" cy="196.65" fill="#ffffff" id="svg_11" rx="7.85" ry="19.04" stroke="#000000" stroke-width="0" transform="matrix(1 0 0 1 0 0)"/>
+ </g>
+</svg>
