@@ -1,0 +1,23 @@
+
+table {
+  border: 2px solid #000000;
+  background-color: #53c28b;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 20px;
+}
+
+caption {
+  color: #000000;
+  font-size: 24px;
+}
+
+thead {
+  background-color: #C2538A;
+}
+
+tr:nth-child(even) {
+  background: #3BA771;
+}
