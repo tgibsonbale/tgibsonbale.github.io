@@ -49,7 +49,7 @@ h2 {
 }
 
 main ul {
-	list-style-image: url('/image/tomato.png');
+	list-style-image: url("../image/tomato.png");
 }
 
 footer {
