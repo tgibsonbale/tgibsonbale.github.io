@@ -1,0 +1,22 @@
+div {
+  margin: 10px;
+}
+
+label {
+  margin-right: 15px;
+  width: 150px;
+  display: inline-block;
+}
+
+form {
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+  max-width: 1000px;
+}
+
+input[type="text"] {
+  width: 338px;
+}
