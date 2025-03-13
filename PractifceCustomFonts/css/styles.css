@@ -1,0 +1,13 @@
+/* Practice CustomFonts Style Sheet */
+
+@font-face {
+    font-family: 'SHPinscher';
+    src: url('../fonts/SHPinscher-Regular.woff') format('woff'),
+         url('../fonts/SHPinscher-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'SHPinscher', "Times New Roman", serif;
+}
