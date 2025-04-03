@@ -10,7 +10,10 @@ April 1, 2025 */
 }
 
 html {
-	background-image: url('/images/jewelry.jpg') no-repeat top center / cover;
+    background-image: url('/images/jewelry.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 footer {
