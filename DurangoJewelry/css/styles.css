@@ -1,0 +1,76 @@
+
+/*Tyson Gibson-Bale
+April 1, 2025 */
+
+#outerwrapper {	
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Italic-webfont.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	background-image: url("../images/jewelry.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+main {
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background: linear-gradient(to bottom, #FFFFFF, #F0F9E6);
+}
+
+img[src="images/necklace.jpg"] {
+	float: left;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.addrightmargin {
+	margin-right: 10%;
+}
+
+nav {
+	font-size: 1.5em;
+	clear: both;
+}
+
+nav ul {
+	list-style: none;
+}
+
+.pacifico-regular {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 2em;
+	margin: 0 auto;
+}
