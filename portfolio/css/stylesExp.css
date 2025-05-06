@@ -10,7 +10,7 @@ table {
 }
 
 caption {
-  color: #000000;
+  color: white;
   font-size: 24px;
 }
 
@@ -20,6 +20,10 @@ thead {
 
 tr:nth-child(even) {
   background: #3BA771;
+}
+
+tr.section-header {
+  background-color: #e0e0e0 !important;
 }
 
 /* Showcase Section */

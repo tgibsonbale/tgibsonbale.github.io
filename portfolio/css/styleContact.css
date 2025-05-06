@@ -11,3 +11,8 @@ input:focus {
   border: 2px solid rgb(2, 126, 2);
   outline: none;
 }
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
