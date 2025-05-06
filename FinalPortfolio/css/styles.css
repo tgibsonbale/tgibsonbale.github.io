@@ -1,0 +1,193 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+       url('../fonts/BebasNeue-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  border: 1px solid rgb(2, 126, 2);
+  flex: 1;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: rgb(2, 126, 2);
+  text-align: center;
+  padding: 14px 0;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+li a:hover:not(.active) {
+  background-color: #000000;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* General Styles */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 20px;
+  color: white;
+  font-size: 1.25rem;
+  padding: 20px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 00.75), rgba(0, 0, 0, 0.75)), url("../image/snailBG.png");
+  background-repeat: repeat;
+  background-size: 800px 800px;
+  background-color: black;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background: lightgray;
+  border: 5px solid rgb(2, 126, 2);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: rgb(2, 126, 2);
+  margin-right: 10px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer a {
+  color: rgb(2, 126, 2);
+}
+
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid black;
+  color: black;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-header {
+  font-weight: bold;
+  background-color: #e0e0e0;
+  text-align: left;
+}
+
+
+/* Form Styles */
+form {
+  margin: auto;
+  max-width: 650px;
+  padding: 20px;
+}
+
+div {
+  margin: 10px;
+}
+
+label {
+  margin-right: 15px;
+  width: 150px;
+  display: inline-block;
+}
+
+textarea {
+  width: 100%;
+  max-width: 1000px;
+}
+
+input[type="text"] {
+  width: 338px;
+}
+
+h1 {
+  margin: auto;
+  max-width: 633px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1, h2, h3, legend {
+  font-family: 'Bebas Neue', sans-serif;
+  color: rgb(2, 126, 2)
+}
+
+h1, h2, p, legend {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  text-align: center;
+}
+
+fieldset {
+  border-color: rgb(2, 126, 2);
+}
+
+/* Mobile Navigation Styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  li {
+    border: 1px solid rgb(2, 126, 2);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  li:last-child {
+    border: 1px solid rgb(2, 126, 2);
+  }
+
+  .home-banner {
+    display: none;
+  }
+}
+
+.highlight {
+  color: rgb(2, 126, 2);
+  font-weight: bold;
+}
